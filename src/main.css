@@ -1,6 +1,8 @@
 @import url("fonts/fontawesome/font-awesome.min.css");
 @import url("bootstrap/css/bootstrap.min.css");
 
+@import url("sections/landing.css");
+
 :root {
     --webc-app-menu-mode: none
 }
