@@ -56,6 +56,11 @@ webc-container.landing-webc-container .container{
     flex-direction: column;
     align-items: center;
 }
+.navigation-btn:focus,
+.navigation-btn:hover{
+    outline: none;
+    color:#efefef;
+}
 
 .navigation-btn i{
     padding: 0.75rem;
@@ -63,4 +68,29 @@ webc-container.landing-webc-container .container{
     border-radius: 50%;
     width: 3rem;
     height: 3rem;
+}
+.share-did{
+    background: #00345b
+}
+.share-did-input[readonly]{
+    background-color: #1b5e91;
+    color: #fff;
+    border: none;
+    text-align: center;
+    border-radius: 3px 0 0 3px;
+}
+.share-did-btn{
+    background: #1b5e91;
+    color: #FFF;
+    border-color: #1b5e91;
+    border-left-color: #00345b;
+}
+.share-did-btn:focus,
+.share-did-btn:active,
+.share-did-btn:not(:disabled):not(.disabled):active,
+.share-did-btn:hover{
+    background: #164e78;
+    border-color: #1b5e91;
+    border-left-color: #00345b;
+    box-shadow: none;
 }
