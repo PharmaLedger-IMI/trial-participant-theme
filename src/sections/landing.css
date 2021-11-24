@@ -135,6 +135,7 @@ header,
     text-align: left;
     padding-bottom: 0.5rem;
     border-bottom:1px solid #FFFFFF;
+    width: 100%;
 }
 
 .feedback-item-container p.title{
