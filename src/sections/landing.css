@@ -1,9 +1,6 @@
 webc-container.landing-webc-container{
     display: flex;
 }
-webc-container.landing-webc-container .container{
-    height:75vh;
-}
 
 .landing-profile-picture{
     width: 100%;
@@ -12,7 +9,13 @@ webc-container.landing-webc-container .container{
     position: relative;
 }
 
-.landing-container .img-fluid{
+header,
+.logo-container,
+.landing-profile-picture{
+    background:#FFFFFF;
+}
+
+.logo-container .img-fluid{
     max-width: 70%;
 }
 .landing-profile-picture picture{
@@ -36,7 +39,10 @@ webc-container.landing-webc-container .container{
 
 .main-navigation{
     background: #00345b;
+}
 
+.main-navigation .container{
+    padding: 0 15px;
 }
 .main-navigation .col-6{
     justify-content: center;
