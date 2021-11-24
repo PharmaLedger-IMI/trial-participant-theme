@@ -100,3 +100,44 @@ header,
     border-left-color: #00345b;
     box-shadow: none;
 }
+
+/* Feedback page */
+
+.feedback-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback-btn{
+    background:none;
+    border:none;
+    outline:none;
+    display: flex;
+    color: #FFF;
+    align-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    margin:1rem;
+}
+
+.feedback-btn:focus,
+.feedback-btn:hover {
+    outline: none;
+}
+
+.feedback-btn i{
+    color:#008798;
+    margin:0 0.75rem 0 0;
+}
+
+.feedback-item-container{
+    text-align: left;
+    padding-bottom: 0.5rem;
+    border-bottom:1px solid #FFFFFF;
+}
+
+.feedback-item-container p.title{
+font-weight: bold;
+margin:0 0.5rem 0.25rem 0;
+}
