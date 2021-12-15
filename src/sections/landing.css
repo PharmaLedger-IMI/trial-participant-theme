@@ -142,3 +142,11 @@ header,
 font-weight: bold;
 margin:0 0.5rem 0.25rem 0;
 }
+
+.ediary-controls{
+    position: relative;
+    bottom: 15%;
+    left: 10%;
+    width: 100%;
+    display: flex;
+}
