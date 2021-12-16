@@ -133,11 +133,11 @@ psk-button.fullWidth button {
 }
 
 .log-out-button {
-    padding-top: 10%;
+    padding-top: 5%;
     position: absolute;
-    bottom: 2%;
+    bottom: 10%;
     left: 30%;
-    width: 40%;
+    width: 37%;
 }
 
 .log-out-button button {
