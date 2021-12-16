@@ -136,11 +136,12 @@ psk-button.fullWidth button {
     padding-top: 10%;
     position: absolute;
     bottom: 2%;
-    width: 100%;
+    left: 30%;
+    width: 40%;
 }
 
 .log-out-button button {
-    width: 80%;
+    width: 100%;
 }
 
 .half-screen-button,
