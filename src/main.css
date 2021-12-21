@@ -2,6 +2,7 @@
 @import url("bootstrap/css/bootstrap.min.css");
 @import url("sections/landing.css");
 @import url("sections/notifications.css");
+@import url("sections/header.css");
 
 :root {
     --webc-app-menu-mode: none
