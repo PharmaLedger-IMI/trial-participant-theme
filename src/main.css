@@ -3,6 +3,7 @@
 @import url("sections/landing.css");
 @import url("sections/notifications.css");
 @import url("sections/header.css");
+@import url("components/button.css");
 
 :root {
     --webc-app-menu-mode: none
