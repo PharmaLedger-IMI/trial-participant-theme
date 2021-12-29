@@ -152,23 +152,6 @@ psk-label {
 
 }
 
-.ediary-user-name-title {
-    margin-top: 3%;
-    font-size: 30px;
-    font-weight: bold;
-    display: block;
-    text-align: center;
-}
-
-.ediary-user-name-sub-title {
-    font-size: 16px;
-    font-weight: bold;
-    display: block;
-    text-align: left;
-    margin-left: 5%;
-    color: rgba(0, 0, 0, 0.7);
-}
-
 .ed-label,
 .ed-label psk-label {
     font-weight: bold;
