@@ -5,6 +5,7 @@
 @import url("sections/header.css");
 @import url("sections/button.css");
 @import url("sections/questionnaire.css");
+@import url("sections/calendar.css");
 
 :root {
     --webc-app-menu-mode: none
