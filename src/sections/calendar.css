@@ -103,19 +103,22 @@
     transition: background-color 0.2s;
 }
 
-#calendar .days div:hover:not(.today) {
+#calendar .days div:hover {
     /*    background-color: #262626; */
     border: 0.2rem solid #777;
     border-radius: 20px;
     cursor: pointer;
 }
 
-#calendar .prev-date,
-#calendar .next-date {
+#calendar div[data-prev="true"],
+#calendar div[data-next="true"] {
     opacity: 0.5;
+    border: none;
+    cursor: none;
+    border-radius: 0;
 }
 
-#calendar .today {
+#calendar div[data-today="true"] {
     border-radius: 10px;
     background-color: #d7b360;
 }
