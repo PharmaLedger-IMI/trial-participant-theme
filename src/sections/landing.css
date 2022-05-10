@@ -23,8 +23,16 @@ header,
 }
 
 .landing-profile-picture img{
-    width: 128px;
+    width: 200px;
     border-radius: 50%;
+    color:gray;
+}
+
+.edit-btn-wrapper {
+    width: 100%;
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
 }
 
 .landing-profile-picture:after{
@@ -32,7 +40,7 @@ header,
     background: #00345b;
     width: 100%;
     top: 51%;
-    height: 64px;
+    height: 100px;
     z-index: 1;
     content: "";
 }
