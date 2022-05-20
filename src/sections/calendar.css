@@ -122,3 +122,10 @@
     border-radius: 10px;
     background-color: #d7b360;
 }
+
+#calendar div[day-type="invitation"]::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f005";
+    color: #DA22BC;
+}
