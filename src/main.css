@@ -6,6 +6,8 @@
 @import url("sections/button.css");
 @import url("sections/questionnaire.css");
 @import url("sections/calendar.css");
+@import url("sections/datatable.css");
+@import url("sections/feedback.css");
 
 :root {
     --webc-app-menu-mode: none
@@ -16,4 +18,3 @@ html, body{
     padding: 0;
     height: 100%;
 }
-

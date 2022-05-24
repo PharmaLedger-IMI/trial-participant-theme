@@ -1,0 +1,40 @@
+.common-datatable .webc-datatable--container {
+    display: grid;
+    align-content: start;
+    min-height: 325px;
+}
+.common-datatable .webc-datatable--container > * {
+    padding: 0.5rem;
+    border-bottom: 1px solid #CDCDCD;
+}
+.common-datatable .webc-datatable--container > .webc-datatable--header {
+    font-weight: bold;
+    border-color: #2F2F2F;
+    margin-bottom: 0.5rem;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+.common-datatable .webc-datatable--container webc-spinner {
+    align-self: center;
+}
+
+.common-datatable webc-datatable div.cell {
+    background: #cfe8eb;
+    display: flex;
+    align-items: center;
+}
+
+.dt-3-col webc-datatable div.cell:nth-child(6n+1),
+.dt-3-col webc-datatable div.cell:nth-child(6n+2),
+.dt-3-col webc-datatable div.cell:nth-child(6n+3)
+
+{
+    background: #c2ced8;
+    margin:0.25rem 0;
+}
+
+.feedback-datatable .webc-datatable--container{
+    grid-template-columns: 4fr  1fr 100px;
+}
