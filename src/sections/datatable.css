@@ -24,11 +24,21 @@
     background: #cfe8eb;
     display: flex;
     align-items: center;
+    overflow: hidden;
 }
 
 .dt-3-col webc-datatable div.cell:nth-child(6n+1),
 .dt-3-col webc-datatable div.cell:nth-child(6n+2),
-.dt-3-col webc-datatable div.cell:nth-child(6n+3)
+.dt-3-col webc-datatable div.cell:nth-child(6n+3),
+
+.dt-8-col webc-datatable div.cell:nth-child(16n+1),
+.dt-8-col webc-datatable div.cell:nth-child(16n+2),
+.dt-8-col webc-datatable div.cell:nth-child(16n+3),
+.dt-8-col webc-datatable div.cell:nth-child(16n+4),
+.dt-8-col webc-datatable div.cell:nth-child(16n+5),
+.dt-8-col webc-datatable div.cell:nth-child(16n+6),
+.dt-8-col webc-datatable div.cell:nth-child(16n+7),
+.dt-8-col webc-datatable div.cell:nth-child(16n+8)
 
 {
     background: #c2ced8;
@@ -37,4 +47,8 @@
 
 .feedback-datatable .webc-datatable--container{
     grid-template-columns: 4fr  1fr 100px;
+}
+
+.col-8-datatable .webc-datatable--container {
+    grid-template-columns: repeat(6, 2fr) 3fr 1fr;
 }
