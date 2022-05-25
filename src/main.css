@@ -8,6 +8,7 @@
 @import url("sections/calendar.css");
 @import url("sections/datatable.css");
 @import url("sections/feedback.css");
+@import url("sections/studies.css");
 
 :root {
     --webc-app-menu-mode: none
