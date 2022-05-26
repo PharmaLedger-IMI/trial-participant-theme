@@ -9,6 +9,8 @@
 @import url("sections/datatable.css");
 @import url("sections/feedback.css");
 @import url("sections/studies.css");
+@import url("sections/consents-history.css");
+@import url("sections/consent-preview.css");
 
 :root {
     --webc-app-menu-mode: none
