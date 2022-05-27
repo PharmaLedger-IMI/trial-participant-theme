@@ -180,9 +180,21 @@ margin:0 0.5rem 0.25rem 0;
     display: flex;
 }
 
-
 .ediary-config{
     width:60%;
     margin-bottom: 0.5rem;
 }
+
+button[disabled] {
+    color: #7b7b7b;
+}
+
+button[disabled] i {
+    border-color: #7b7b7b;
+}
+
+button[disabled]:hover {
+    color: #7b7b7b;
+}
+
 
