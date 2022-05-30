@@ -22,6 +22,9 @@ header,
     z-index: 2;
     position:relative;
 }
+.landing-profile-picture picture img{
+    height: 200px;
+}
 
 .landing-profile-picture img{
     width: 200px;
@@ -31,8 +34,8 @@ header,
 
 .edit-btn-wrapper {
     position: absolute;
-    top: 150px;
-    right: 5px;
+    bottom: 0;
+    right: 0;
     width: 34px;
     height: 34px;
     border-radius: 100%;
