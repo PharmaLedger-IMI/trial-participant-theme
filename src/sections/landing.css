@@ -200,11 +200,4 @@ button[disabled]:hover {
     color: #7b7b7b;
 }
 
-.not-assigned-message {
-    display: flex;
-    color: white;
-    font-weight: 700;
-    justify-content: center;
-    margin-top: 20px;
-}
 
