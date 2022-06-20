@@ -194,8 +194,9 @@ header,
 }
 
 .feedback-item-container p.title{
-font-weight: bold;
-margin:0 0.5rem 0.25rem 0;
+    font-weight: bold;
+    margin:0 0.5rem 0.25rem 0;
+    word-break: break-all;
 }
 
 .ediary-controls{
