@@ -69,10 +69,14 @@ header,
     content: "";
 }
 
+.notifications-container {
+    position: relative;
+}
+
 .notification-badge {
     position: absolute;
-    top: 10px;
-    right: 165px;
+    top: 0px;
+    right: 22px;
     width: 34px;
     height: 34px;
     border-radius: 100%;
