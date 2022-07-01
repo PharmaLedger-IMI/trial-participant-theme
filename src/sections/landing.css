@@ -122,8 +122,11 @@ header,
 
 .notification-badge {
     position: absolute;
-    width: 30px;
-    height: 30px;
+    max-width: 40px;
+    text-align: center;
+    min-width: 30px;
+    min-height: 30px;
+    padding: 0.25rem;
     border-radius: 100%;
     background: #eb445a;
     border: 1px solid #d2d6de;
@@ -135,10 +138,7 @@ header,
 
 .notifications-number {
     color: #fff;
-    position: absolute;
     font-weight: 700;
-    top: 3px;
-    left: 8px;
 }
 
 .main-navigation{
