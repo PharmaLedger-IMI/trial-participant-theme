@@ -26,6 +26,8 @@
     align-items: center;
     overflow: hidden;
 }
+.dt-2-col webc-datatable div.cell:nth-child(4n+1),
+.dt-2-col webc-datatable div.cell:nth-child(4n+2),
 
 .dt-3-col webc-datatable div.cell:nth-child(6n+1),
 .dt-3-col webc-datatable div.cell:nth-child(6n+2),
@@ -47,6 +49,10 @@
 
 .feedback-datatable .webc-datatable--container{
     grid-template-columns: 4fr  1fr 100px;
+}
+
+.completed-studies-datatable .webc-datatable--container{
+    grid-template-columns: 1fr 3fr;
 }
 
 .col-8-datatable .webc-datatable--container {
