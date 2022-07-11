@@ -36,12 +36,12 @@ header,
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 34px;
-    height: 34px;
+    width: 45px;
+    height: 45px;
     border-radius: 100%;
     background: #fff;
     border: 1px solid #d2d6de;
-    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
     cursor: pointer;
     font-weight: normal;
     transition: all 0.2s ease-in-out;
@@ -55,7 +55,7 @@ header,
     left: 0;
     right: 0;
     text-align: center;
-    line-height: 34px;
+    line-height: 45px;
     margin: auto;
 }
 
