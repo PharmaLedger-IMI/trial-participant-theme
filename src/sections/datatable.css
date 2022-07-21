@@ -33,6 +33,12 @@
 .dt-3-col webc-datatable div.cell:nth-child(6n+2),
 .dt-3-col webc-datatable div.cell:nth-child(6n+3),
 
+.dt-5-col webc-datatable div.cell:nth-child(10n+1),
+.dt-5-col webc-datatable div.cell:nth-child(10n+2),
+.dt-5-col webc-datatable div.cell:nth-child(10n+3),
+.dt-5-col webc-datatable div.cell:nth-child(10n+4),
+.dt-5-col webc-datatable div.cell:nth-child(10n+5),
+
 .dt-8-col webc-datatable div.cell:nth-child(16n+1),
 .dt-8-col webc-datatable div.cell:nth-child(16n+2),
 .dt-8-col webc-datatable div.cell:nth-child(16n+3),
@@ -53,6 +59,10 @@
 
 .completed-studies-datatable .webc-datatable--container{
     grid-template-columns: 1fr 3fr;
+}
+
+.permissions-datatable .webc-datatable--container{
+    grid-template-columns: repeat(5, 1fr);
 }
 
 .col-8-datatable .webc-datatable--container {
