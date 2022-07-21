@@ -116,8 +116,8 @@ header,
 
 .notifications-container {
     position: relative;
-    top: -200px;
-    left: 190px;
+    top: -150px;
+    left: 150px;
 }
 
 .notification-badge {
