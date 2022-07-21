@@ -16,18 +16,18 @@ header,
 }
 
 .logo-container .img-fluid{
-    max-width: 70%;
+    max-width: 45%;
 }
 .landing-profile-picture picture{
     z-index: 2;
     position:relative;
 }
 .landing-profile-picture picture img{
-    height: 200px;
+    height: 160px;
 }
 
 .landing-profile-picture img{
-    width: 200px;
+    width: 160px;
     border-radius: 50%;
     color:gray;
 }
@@ -65,14 +65,14 @@ header,
 
 .notifications-btn-wrapper {
     position: absolute;
-    top: -190px;
-    right: -5px;
+    top: -155px;
+    right: 0;
     width: 45px;
     height: 45px;
     border-radius: 100%;
     background: #fff;
     border: 1px solid #d2d6de;
-    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
     cursor: pointer;
     font-weight: normal;
     transition: all 0.2s ease-in-out;
@@ -109,7 +109,7 @@ header,
     background: #00345b;
     width: 100%;
     top: 51%;
-    height: 100px;
+    height: 80px;
     z-index: 1;
     content: "";
 }
