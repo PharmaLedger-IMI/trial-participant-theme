@@ -55,8 +55,12 @@ header,
     left: 0;
     right: 0;
     text-align: center;
-    line-height: 45px;
+    line-height: 5px;
     margin: auto;
+}
+
+.edit-btn-wrapper[disabled]:after{
+    opacity: 0.5;
 }
 
 .notifications-btn-container {
