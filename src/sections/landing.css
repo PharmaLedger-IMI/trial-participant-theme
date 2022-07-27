@@ -145,6 +145,23 @@ header,
     font-weight: 700;
 }
 
+
+.wallet-initializing-info{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    z-index: 100;
+}
+
+.wallet-initializing-info .spinner-border{
+    margin-bottom: 2rem;
+    width: 5rem;
+    height: 5rem;
+}
+
 .main-navigation{
     background: #00345b;
 }
