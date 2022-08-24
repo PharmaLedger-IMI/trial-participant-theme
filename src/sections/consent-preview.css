@@ -1,8 +1,11 @@
-.pdf-wrapper {
+#pdf-wrapper {
     overflow-y: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
 }
 
 #canvas-wrapper {
