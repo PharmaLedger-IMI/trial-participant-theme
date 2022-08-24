@@ -112,9 +112,8 @@
 }
 
 #calendar .days div {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     margin: 0.3rem;
-    /*width: calc(40.2rem / 7);*/
     width: calc((100% - 4.2rem)/7);
     height: 2rem;
     display: flex;
@@ -148,4 +147,19 @@
     font-weight: 900;
     content: "\f005";
     color: #DA22BC;
+}
+
+#calendar div[day-type="visit"][prom-type][prem-type]::after,
+#calendar div[day-type="visit"][prom-type]::after,
+#calendar div[day-type="visit"][prem-type]::after{
+    color: #1aa999;
+}
+
+#calendar div[prom-type]::after,
+#calendar div[prem-type]::after,
+#calendar div[prom-type][prem-type]::after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f005";
+    color: #e8ac0f;
 }
