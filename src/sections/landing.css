@@ -249,6 +249,12 @@ header,
     flex-direction: column;
 }
 
+.health-studies-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
 .feedback-btn{
     background:none;
     border:none;
