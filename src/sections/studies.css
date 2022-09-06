@@ -27,3 +27,24 @@ button.link.option {
     text-decoration: none;
 }
 
+.card {
+    margin-bottom: 15px;
+}
+
+.study-title {
+    font-weight: 600 !important;
+    font-size: 16px !important;
+}
+
+.study-datatype, .study-status {
+    font-size: inherit;
+    margin-bottom: 2px;
+}
+
+.shared-data-container {
+    border-bottom: 1px solid gray;
+}
+
+.card-item {
+    margin-bottom: 0.75rem;
+}
