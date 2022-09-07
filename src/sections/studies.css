@@ -30,6 +30,14 @@ button.link.option {
     font-size: 20px !important;
 }
 
+.study-subtitle {
+    font-size: 18px !important;
+}
+
+.study-description {
+    font-size: 16px !important;
+}
+
 .study-datatype, .study-status {
     font-size: inherit;
     margin-bottom: 2px;
