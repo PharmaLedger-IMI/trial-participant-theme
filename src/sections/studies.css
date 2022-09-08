@@ -26,6 +26,11 @@ button.link.option {
     margin-bottom: 15px;
 }
 
+.badge-complete {
+    color: #fff;
+    background-color: #008798;
+}
+
 .study-title {
     font-size: 20px !important;
 }
