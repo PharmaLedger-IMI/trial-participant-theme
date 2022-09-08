@@ -41,6 +41,10 @@
     width:100%;
 }
 
+.questionnaire-completed i{
+    color:#008798;
+}
+
 #questionnaire_progress .progress-bar{
     background-color: #008798;
 }
