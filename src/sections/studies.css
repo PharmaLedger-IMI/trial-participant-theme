@@ -48,6 +48,14 @@ button.link.option {
     margin-bottom: 2px;
 }
 
+.btns-container {
+    border-top: 1px solid gray;
+}
+
+.btns-container-item {
+    margin-top: 0.75rem;
+}
+
 .shared-data-container, .title-container {
     border-bottom: 1px solid gray;
 }
