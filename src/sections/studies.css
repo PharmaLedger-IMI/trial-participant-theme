@@ -46,6 +46,7 @@ button.link.option {
 .study-datatype, .study-status {
     font-size: inherit;
     margin-bottom: 2px;
+    font-weight: 400;
 }
 
 .btns-container {
