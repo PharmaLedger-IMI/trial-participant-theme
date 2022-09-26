@@ -1,32 +1,10 @@
-.versions-container {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 100px;
-}
-
-.version-container {
-    border-top: 1px solid #008798;
-    display: flex;
-    justify-content: space-between;
-    width: 70%;
-}
-
-.icon-text-container {
-    display: flex;
-    align-items: center;
-    width: 30%;
-    justify-content: space-between;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
 
 .version-name {
     margin-right: 10px;
 }
 
 p.version-name {
-    margin-bottom:0px;
+    margin-bottom:0;
 }
 
 .consent-status {
@@ -44,10 +22,6 @@ p.version-name {
     align-items: center;
 }
 
-.button-container {
-    display: flex;
-    justify-content: center;
-}
 
 .button-link-option {
     padding: 0.125rem 0.75rem;
