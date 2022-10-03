@@ -57,3 +57,30 @@ ion-badge{
     padding: 5px;
     font-size: 0.75rem;
 }
+
+webc-spinner[data-value]::after {
+    content: attr(data-value);
+    top: calc(50% + 30px);
+    padding: 15px 15px 15px 70px;
+    background: #008798;
+    color: white;
+    border-radius: 5px;
+    margin-left: -60px;
+}
+
+webc-spinner[data-value][completed]::after {
+    margin-left: -65px;
+    padding-left: 40px;
+}
+
+webc-spinner[data-value][completed] *{
+    visibility: hidden;
+}
+
+webc-spinner[data-value][completed]::before{
+    content: "\f058";
+    font-family: FontAwesome;
+    font-size:1.5em;
+    z-index: 100;
+    color: white;
+}
