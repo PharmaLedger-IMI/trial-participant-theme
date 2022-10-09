@@ -58,6 +58,10 @@ ion-badge{
     font-size: 0.75rem;
 }
 
+webc-spinner{
+    background: rgba(64, 149, 131, 0.15);
+}
+
 webc-spinner[data-value]::after {
     content: attr(data-value);
     top: calc(50% + 30px);
