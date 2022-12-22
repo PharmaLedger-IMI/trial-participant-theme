@@ -216,9 +216,6 @@ header,
     height: 4rem;
     font-size: 1.75rem;
 }
-.share-did{
-    background: #00345b
-}
 .share-did-input[readonly]{
     background-color: #1b5e91;
     color: #fff;
